@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/VladimirPavlov1/todos_on_react/static/css/main.7acaea2f.css",
+    "main.js": "/VladimirPavlov1/todos_on_react/static/js/main.e79e1a9e.js",
+    "index.html": "/VladimirPavlov1/todos_on_react/index.html",
+    "main.7acaea2f.css.map": "/VladimirPavlov1/todos_on_react/static/css/main.7acaea2f.css.map",
+    "main.e79e1a9e.js.map": "/VladimirPavlov1/todos_on_react/static/js/main.e79e1a9e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.e79e1a9e.js"
+  ]
+}
