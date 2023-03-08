@@ -1,4 +1,13 @@
-import { Input, Label, FieldWrap, BtnInput, Top,Right,Bottom,Left } from './FieldInput.styled';
+import {
+  Input,
+  Label,
+  FieldWrap,
+  BtnInput,
+  Top,
+  Right,
+  Bottom,
+  Left,
+} from './FieldInput.styled';
 
 export const FieldInput = ({ handleChange, text, tapButton }) => {
   return (

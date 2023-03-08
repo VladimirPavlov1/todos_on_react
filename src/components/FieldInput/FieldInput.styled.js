@@ -36,86 +36,77 @@ export const Input = styled.input`
 `;
 
 export const BtnInput = styled.button`
-  position:relative;
+  position: relative;
   overflow: hidden;
   display: block;
   border: none;
-  
+
   height: 30px;
   width: 85px;
   padding: 6px;
   font-size: 1rem;
   margin-left: 10px;
   transition: 1000ms;
-  :hover{
-    box-shadow: 0 0 16px pink,0 0 40px pink, 0 0 80px pink;
+  :hover,
+  :active {
+    box-shadow: 0 0 16px pink, 0 0 40px pink, 0 0 80px pink;
     background-color: pink;
     color: white;
   }
-  :hover span:first-child{
+  :hover span:first-of-type {
     left: 100%;
     transition: 2000ms;
   }
 
-  :hover span:nth-child(2){
-    top:100%;
+  :hover span:nth-of-type(2) {
+    top: 100%;
     transition: 2000ms;
   }
 
-  :hover span:nth-child(3){
+  :hover span:nth-of-type(3) {
     left: -100%;
     transition: 2000ms;
   }
-  :hover span:last-child{
-    bottom:100%;
+  :hover span:last-of-type {
+    bottom: 100%;
     transition: 2000ms;
   }
- 
- 
+
   @media (min-width: 768px) {
     width: 150px;
     letter-spacing: 2px;
     font-weight: bold;
   }
 `;
- export const Top = styled.span`
-  
-    position: absolute;
-    top: 0;
-    left:-100%;
-    width: 100%;
-    height: 2px;
-    background: linear-gradient(90deg, transparent, pink);
-   
- `;
-  export const Right = styled.span`
-  
+export const Top = styled.span`
   position: absolute;
-    right: 0;
-    top: -100%;
-    width: 2px;
-    height: 100%;
-    background: linear-gradient(0deg, transparent, pink);
- 
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, pink);
+`;
+export const Right = styled.span`
+  position: absolute;
+  right: 0;
+  top: -100%;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(0deg, transparent, pink);
 `;
 export const Bottom = styled.span`
-  
   position: absolute;
-    left: 100%;
-    bottom: 0;
-    width: 100%;
-    height: 2px;
-    background: linear-gradient(90deg, pink,transparent);
-
+  left: 100%;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, pink, transparent);
 `;
 export const Left = styled.span`
-  
-position: absolute;
-left: 0;
-bottom:-100%;
-width: 2px;
-height: 100%;
-background: linear-gradient(0deg, transparent, pink);
-
+  position: absolute;
+  left: 0;
+  bottom: -100%;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(0deg, transparent, pink);
 `;
-

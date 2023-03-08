@@ -8,6 +8,9 @@ export const todoSlise = createSlice({
   },
   reducers: {
     addTodos(state, action) {
+      if (action.payload.text === '') {
+        return;
+      }
       state.todos.push({
         id: nanoid(),
         text: action.payload.text,
