@@ -17,7 +17,7 @@ export const FieldWrap = styled.div`
 
 export const Input = styled.input`
   display: block;
-  width: 210px;
+  width: 230px;
   height: 22px;
   font-size: 18px;
   font-style: italic;
